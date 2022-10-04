@@ -14,6 +14,9 @@ html {
 /* start nav */
 .navbar {
   box-shadow: -3px 0px 8px 1px #00000075;
+  position: sticky;
+  top: 0;
+  z-index: 5465465;
 }
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:focus {
@@ -78,6 +81,7 @@ html {
 /* end nav */
 /* start landing */
 .landing {
+  margin-top: -49px;
   background-image: url(../images/landing.jpg);
   background-size: cover;
   height: 100vh;
@@ -199,6 +203,11 @@ html {
   border-radius: 5px;
   font-size: 17px;
   margin-bottom: 10px;
+  transition: 0.3s;
+}
+.advers button:hover {
+  color: white;
+  background-color: var(--main-color--);
 }
 /* end advers */
 /* start arrivals */
@@ -278,7 +287,7 @@ html {
   color: white;
   width: fit-content;
   padding: 5px 10px;
-  /* margin-top: 20px; */
+  cursor: pointer;
 }
 .photo .two h4 {
   border: 1px solid;
@@ -287,7 +296,7 @@ html {
   color: white;
   width: fit-content;
   padding: 5px 10px;
-  margin-top: 20px;
+  cursor: pointer;
 }
 @media (max-width: 576px) {
   .photo .card {
@@ -320,7 +329,7 @@ html {
   font-weight: bold;
 }
 .sign-up span:nth-child(2) {
-  padding: 9px 10px;
+  padding: 6px 10px;
   color: white;
   border: none;
   border-radius: 5px;
