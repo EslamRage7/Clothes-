@@ -139,7 +139,7 @@ html {
 @media (max-width: 576px) {
   .vectors .card {
     border: none;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     width: 290px;
     margin: auto;
   }
