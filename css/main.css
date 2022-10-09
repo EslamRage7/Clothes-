@@ -142,6 +142,7 @@ html {
     margin-bottom: 20px;
     width: 290px;
     margin: auto;
+    transition: 0.3s;
   }
   .vectors .card p {
     background-color: var(--main-color--);
